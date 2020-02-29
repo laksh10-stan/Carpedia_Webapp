@@ -1,0 +1,44 @@
+body
+{
+background:G:\Images\Game of thrones\26230-game_of_thrones_wallpaper_1.jpg;
+}
+h1
+{
+color:blue;
+font-size:250%;
+text-transform:uppercase;
+}
+h2
+{
+color:green;
+font-size:250%;
+font-family: "Lucida Console", Courier, monospace;
+text-transform:uppercase;
+}
+h3
+{
+font-size:150%;
+color:green;
+}
+p
+{
+color:red;
+font-size:200%;
+}
+table
+{
+border:4px solid black;
+height:50%;
+width:60%;
+bgcolor:red;
+}
+th
+{
+color:red;
+border:2px solid Blue;
+}
+td
+{
+color:blue;
+border:2px solid Green;
+}

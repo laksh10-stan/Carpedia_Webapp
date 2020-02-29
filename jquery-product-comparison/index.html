@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Papermashup.com | jQuery Product Comparison Plugin Demo</title>
+	
+	<!-- Tutorial CSS Files -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/comparison.css">
+	<!-- Tutorial CSS Files END -->
+
+</head>
+
+<body>
+<h2 id="top"></h2>
+<div class="To">
+<ul float="left">
+  <li><a href="E:\perfect\home.html">Home</a></li>
+  <li><a href="E:\perfect\Bugatti Veyron.html">Cars Description</a></li>
+  <li><a href="#">Cars Comparision</a></li>
+  <li><a href="E:\perfect\abtus.html">About the developers</a></li>
+</ul>
+<a id="compare" href="#animatedModal" disabled class="compare-products">Compare Cars</a>
+<div class="container">
+
+	<!-- Product 1 -->
+	<div class="product" data-id="1" data-title="Audi A8" data-description="Manufacturer-Audi AG (Volkswagen Group) <br> Milage-16.77 kmpl <br>Engine-V8 petrol engine" data-price="Price-3.18 crore" data-alcohol="4% ABV" data-country=" Top speed-250 km/h (155 mph)" data-ingredients="Max Power-300 PS (221 kW)">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\aud a8(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Audi A8</span></h3>
+		<p class="description">Top speed-250km/h</p>
+		<p class="price">Price-3.18 crore</p>
+		<a href="#" class="add-to-cart"> Milage-16.77 kmpl</a>
+		
+	</div>
+	
+	<!-- Product 2 -->
+	<div class="product" data-id="2" data-title="BMW I8" data-description="Manufacturer-BMW <br> Milage-47 kmpl <br>Engine-	B38A15T0 1.5L turbocharged I3 engine gasoline" data-price="Price- 2.1 Cr" data-alcohol="4% ABV" data-country=" Top speed-250 km/h (155 mph)" data-ingredients="Max Power-231bhp">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\bmw i8(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>BMW I8</span></h3>
+		<p class="description">Top speed-250km/h</p>
+		<p class="price">Price-2.1 crore</p>
+		<a href="#" class="add-to-cart"> Milage-47 kmpl</a>
+		
+	</div><!-- Product 3 -->
+	<div class="product" data-id="3" data-title="Bugatti Veyron" data-description="Manufacturer-Bugatti<br> Milage-15.6 l/100km  <br>Engine-8.0 L (488 cu in) W16 quad-turbocharged" data-price="Price-$3 million" data-alcohol="4% ABV" data-country=" Top speed-408.47 km/h (253.81 mph)" data-ingredients="Max Power-1,001 hp @ 6,000 rpm (746 kW)">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\BUG_grand_sport_vitesse_01(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Bugatti Veyron</span></h3>
+		<p class="description">Top speed-403kmph</p>
+		<p class="price">Price-$3 million</p>
+		<a href="#" class="add-to-cart"> Milage-15.6 l/100km</a>
+		
+	</div><!-- Product 4 -->
+	<div class="product" data-id="4" data-title="Ferrari F50" data-description="Manufacturer-Ferrari <br> Milage-34 L/100 km <br>Engine-4.7 L DOHC 65 degree V12" data-price="Price-$2.5 million" data-alcohol="4% ABV" data-country=" Top speed-333 km/h or 207.1 mph" data-ingredients="Max Power-520 PS (382 kW; 513 hp) @ 8000 rpm">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\cars-ferrari-f50-18972(2).jpg" height="50%" width="75%" class="product-image"/>
+		<h3 class="text-center"><span>Ferrari F50</span></h3><br>
+		<p class="description">Top speed-333km/h</p>
+		<p class="price">Price-$2.5 million</p>
+		<a href="#" class="add-to-cart"> Milage-34 L/100 km</a>
+		
+	</div><!-- Product 5 -->
+	<div class="product" data-id="5" data-title="Ferrari Laferrari" data-description="Manufacturer-Ferrari<br> Milage-12 kmpl <br>Engine-6.3 L F140FE V12, electric motor & KERS" data-price="Price-Rs 7 Crores " data-alcohol="4% ABV" data-country=" Top speed-217 mph (349 km/h)" data-ingredients="Max Power-789-hp">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\2017-ferrari-laferrari-sp-3_800x0w(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Ferrari Laferrari</span></h3>
+		<p class="description">Top speed-349km/h</p>
+		<p class="price">Price-7 crore</p>
+		<a href="#" class="add-to-cart"> Milage-12 kmpl</a>
+		
+	</div><!-- Product 6 -->
+	<div class="product" data-id="6" data-title="Ford Mondeo" data-description="Manufacturer-Ford <br> Milage-13.0 kmpl <br>Engine-2.5 L V6 engine" data-price="Price-Rs 15.0 Lakh" data-alcohol="4% ABV" data-country=" Top speed-155 mph (249 km/h)" data-ingredients="Max Power-	177 kW (241 ps)">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\fordmondeo(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Ford Mondeo</span></h3>
+		<p class="description">Top speed-249km/h</p>
+		<p class="price">Price-15 lakhs</p>
+		<a href="#" class="add-to-cart"> Milage-13 kmpl</a>
+		
+	</div><!-- Product 7 -->
+	<div class="product" data-id="7" data-title="Ford Mustang" data-description="Manufacturer-Ford <br> Milage-13.0 kmpl kmpl <br>Engine-Coyote V8 435 hp data-price="Price- 65 lakh" data-alcohol="4% ABV" data-country=" Top speed- 260 kph" data-ingredients="Max Power-317ps@5,700rpm">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\fordmustang(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Ford Mustang</span></h3>
+		<p class="description">Top speed-260km/h</p>
+		<p class="price">Price-65 lakh </p>
+		<a href="#" class="add-to-cart"> Milage-13.0 kmpl</a>
+		
+	</div><!-- Product 8 -->
+	<div class="product" data-id="8" data-title="Jaguar XE" data-description="Manufacturer-Jaguar Motors <br> Milage-13.6 kmpl kmpl <br>Engine-‎2.0 L 4-cylinder turbocharged petrol" data-price="Price-44 lakhs" data-alcohol="4% ABV" data-country=" Top speed-252 km/h (155 mph)" data-ingredients="Max Power-340hp">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\jaguarxe(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Jaguar XE</span></h3><br>
+		<p class="description">Top speed-252km/h</p>
+		<p class="price">Price-44 lakhs</p>
+		<a href="#" class="add-to-cart"> Milage-13.6 kmpl</a>
+		
+	</div><!-- Product 9 -->
+	<div class="product" data-id="9" data-title="Jaguar XJ 220" data-description="Manufacturer-Jaguar Motors <br> Milage-9.43  kmpl <br>Engine-2.0 L I4 petrol turbocharged" data-price="Price-1.06 crore" data-alcohol="4% ABV" data-country=" Top speed-(341.7 km/h)" data-ingredients="Max Power-549PS">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\jaguarxj220(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Jaguar XJ 220</span></h3>
+		<p class="description">Top speed-341km/h</p>
+		<p class="price">Price-1.06 crore</p>
+		<a href="#" class="add-to-cart"> Milage-9.43 kmpl</a>
+		
+	</div><!-- Product 10 -->
+	<div class="product" data-id="10" data-title="Koenisegg Agera R" data-description="Manufacturer-Koenisegg <br> Milage-12.5 l/100km <br>Engine-5.0 L (305 cu in) V8 twin-turbocharged" data-price="Price-$1.7 million" data-alcohol="4% ABV" data-country=" Top speed-439 km/h (273 mph)" data-ingredients="Max Power-1140 hp at 7100 rpm">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\2013-Koenigsegg-Agera-R-White(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Koenisegg Agera R</span></h3>
+		<p class="description">Top speed-439km/h</p>
+		<p class="price">Price-$1.7 million</p>
+		<a href="#" class="add-to-cart"> Milage-12.5 l/100km</a>
+		
+	</div><!-- Product 11 -->
+	<div class="product" data-id="11" data-title="Lamborghini Veneno" data-description="Manufacturer-Lamborghini <br> Milage-17 miles per gallon <br>Engine-V12, 60°, MPI (Multi Point Injection)" data-price="Price-$3.9 million" data-alcohol="4% ABV" data-country=" Top speed-355 km/h (221 mph)" data-ingredients="Max Power-750hp">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\veneno(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Lamborghini Veneno</span></h3>
+		<p class="description">Top speed-355km/h</p>
+		<p class="price">Price-$3.9 million</p>
+		<a href="#" class="add-to-cart"> Milage-17 miles per gallon</a>
+		
+	</div><!-- Product 12 -->
+	<div class="product" data-id="12" data-title="Lamborghini Aventador" data-description="Manufacturer-Lamborghini <br> Milage-17.2 L/100 km <br>Engine-6.5 L L539 V12" data-price="Price-Rs. 5.01 crore " data-alcohol="4% ABV" data-country=" Top speed-354 km/h (220 mph)" data-ingredients="Max Power-700 PS (510 kW; 690 bhp)">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\orange-lamborghini-aventador-wallpaper-1920-1080-full-hd-resolution(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Lamborghini Aventador</span></h3><br><br>
+		<p class="description">Top speed-354kmph</p>
+		<p class="price">Price-5.01cr</p>
+		<a href="#" class="add-to-cart"> Milage-17.2 L/100 km</a>
+		
+	</div><!-- Product 13 -->
+	<div class="product" data-id="13" data-title="Lamborghini Gallardo" data-description="Manufacturer-Lamborghini <br> Milage-29.1 l/100 km  <br>Engine-Odd firing 5.2 L V10 (2nd Gen)" data-price="Price-3.06 crore" data-alcohol="4% ABV" data-country=" Top speed-320km/hr" data-ingredients="Max Power-550bhp">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\2012-Lamborghini-Gallardo-Trofeo-Stradale-Front-Quarter(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Lamborghini Gallardo</span></h3>
+		<p class="description">Top speed-320km/h</p>
+		<p class="price">Price-3.06 crore</p>
+		<a href="#" class="add-to-cart"> Milage-29.1 l/100 km</a>
+		
+	</div><!-- Product 14 -->
+	<div class="product" data-id="14" data-title="Lamborghini Huracan" data-description="Manufacturer-Lamborghini<br> Milage-US$320,000 <br>Engine-5.2 L V10" data-price="Price-US$320,000" data-alcohol="4% ABV" data-country=" Top speed-346 km/h (215 mph)" data-ingredients="Max Power-610 PS (449 kW; 602 hp)">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\2015-Lamborghini-Huracan-LP-610-4-orange-front-three-quarter-in-motion(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Lamborghini Huracan</span></h3>
+		<p class="description">Top speed-346 kmph</p>
+		<p class="price">Price-US$320,000</p>
+		<a href="#" class="add-to-cart"> Milage-US $ 320,000</a>
+		
+	</div><!-- Product 15 -->
+	<div class="product" data-id="15" data-title="Mercedes AMG CLA45" data-description="Manufacturer-Mercedes <br> Milage-15.04 kmpl <br>Engine-2.0L Gasoline I4 Twin-scroll Turbo" data-price="Price-31.40 lakh" data-alcohol="4% ABV" data-country=" Top speed-254 km/h (156 mph)" data-ingredients="Max Power- 360PS ">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\meramgcla45(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Mercedes AMG CLA45</span></h3>
+		<p class="description">Top speed-254km/h</p>
+		<p class="price">Price-31.40 lakh</p>
+		<a href="#" class="add-to-cart"> Milage-15.04 kmpl</a>
+		
+	</div><!-- Product 16 -->
+	<div class="product" data-id="16" data-title="Pagani Huyara" data-description="Manufacturer-Pagani Motors <br> Milage-23 l/100 km  <br>Engine-5980 cc Mercedes-AMG bi-turbo M158 V12" data-price="Price-850,000 Euros" data-alcohol="4% ABV" data-country=" Top speed-370 km/h" data-ingredients="Max Power-700 horsepower ">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\rh_huayrabc-67(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Pagani Huyara</span></h3><br><br>
+		<p class="description">Top speed-370km/h</p>
+		<p class="price">Price-850,000 Euros</p>
+		<a href="#" class="add-to-cart"> Milage-23 l/100 km</a>
+		
+	</div><!-- Product 17 -->
+	<div class="product" data-id="17" data-title="Porsche Carrera GT" data-description="Manufacturer-Porsche <br> Milage-15.6 l/100km <br>Engine-8.0 L (488 cu in) W16 quad-turbocharged" data-price="Price-$ 440,000" data-alcohol="4% ABV" data-country=" Top speed-330kmph" data-ingredients="Max Power-558 hp ">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\porsche-carreragt-1(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Porsche Carrera GT</span></h3>
+		<p class="description">Top speed-330 kmph</p>
+		<p class="price">Price-$ 440,000</p>
+		<a href="#" class="add-to-cart"> Milage-15.6 l/100km</a>
+		
+	</div><!-- Product 18 -->
+	<div class="product" data-id="18" data-title="Rolls Royce Dawn" data-description="Manufacturer-Rolls Royce Motors<br> Milage-8.86 kmpl <br>Engine-6,592cc BMW N74 Twin-Turbo V12" data-price="Price-$335,000," data-alcohol="4% ABV" data-country=" Top speed-250 kmh/155 mph" data-ingredients="Max Power- 740 bhp / 544 kW">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\rrd(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Rolls Royce Dawn</span></h3><br>
+		<p class="description">Top speed-250km/h</p>
+		<p class="price">Price-$335,000</p>
+		<a href="#" class="add-to-cart"> Milage-16.77 kmpl</a>
+		
+	</div><!-- Product 19 -->
+	<div class="product" data-id="19" data-title="Volkswagen Golf" data-description="Manufacturer-Volkswagen <br> Milage-28 miles per gallon <br>Engine-turbocharged and intercooled DOHC 16-valve inline-4" data-price="Price-$23,515 " data-alcohol="4% ABV" data-country=" Top speed-127 mph" data-ingredients="Max Power-250 PS (184 kW; 247 bhp) ">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\volkswagengolf(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Volkswagen Golf</span></h3>
+		<p class="description">Top speed-127 mph</p>
+		<p class="price">Price-$23,515</p>
+		<a href="#" class="add-to-cart"> Milage-28 miles per gallon</a>
+		
+	</div>
+	</div><!-- Product 20 -->
+	<div class="product" data-id="20" data-title="Zenvo ST1" data-description="Manufacturer-Zenvo Moters<br> Milage-8 miles per U.S. gallon <br>Engine-6.8L turbocharged & supercharged V8" data-price="Price-$1.8 million" data-alcohol="4% ABV" data-country=" Top speed-375 kmph" data-ingredients="Max Power-1104 Bhp @ 6900 rpm">
+		
+		<button><div>+</div></button>
+		<img src="E:\perfect\2015_zenvo_st1-wide(2).jpg" height="50%" width="75%"class="product-image"/>
+		<h3 class="text-center"><span>Zenvo ST1</span></h3>
+		<p class="description">Top speed-375km/h</p>
+		<p class="price">Price-$ 1.8 million</p>
+		<a href="#" class="add-to-cart"> Milage-8 miles per U.S. gallon</a>
+	
+	<div class="clearfix"></div>
+	<font size="100px"><a href="#top" style="color:Red;"><p style="text-align:center">Back to top</a></font> 
+</div>
+     
+<!--Modal-->
+<div id="animatedModal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div  id="btn-close-modal" class="close-animatedModal"> 
+        CLOSE
+    </div>
+        
+    <div class="modal-content">
+        <div class="modal-inner">
+        	<div class="no-products">Select some products to compare first</div>  
+        	<div class="modal-products"></div>     
+        </div>
+    </div>
+</div>
+</body>
+
+	<!-- Tutorial JS Files -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.comparison.js"></script>
+	<script type="text/javascript" src="js/animatedModal.min.js"></script>
+	<script>
+	
+		$("#compare").animatedModal({
+		
+		    animatedIn:'lightSpeedIn',
+		    animatedOut:'bounceOutDown',
+		    color:'#3498db',
+		
+		});
+		
+		$(document).ready(function() {
+		
+		   $('.product').compare({			
+				compareButton: '.compare-products'
+			}); 
+			
+		
+		});
+	
+	</script>
+	<!-- Tutorial JS END -->
+
+</html>

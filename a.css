@@ -1,0 +1,48 @@
+body
+{
+	height:100%;
+	width:100%;
+	
+}
+div
+{
+	height:100%;
+	width:100%;
+	display:inline;
+}
+div img{
+	background-image: url("1.jpg");
+  opacity: 0.5;
+  background-position:center;
+  height:100%;
+	width:100%;
+}
+h1
+{
+	position:fixed;
+	top:25%;
+	left:30%;
+	font-size:50px;
+	color:red;
+}
+h2
+{
+	position:fixed;
+	top:35%;
+	left:30%;
+	font-size:30px;
+}
+div a
+{
+	position:fixed;
+	top:85%;
+	left:50%;
+	font-size:50px;
+	border:2px solid black;
+	color:Red;
+}
+div a:hover
+{
+	background-color:white;
+	color:black;
+}
